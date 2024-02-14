@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+
+#events{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: bisque;
+    margin: 1rem;
+    width: 10rem;
+    font-size: .5rem;
+    padding: 2%;
+
+}
+.card > img{
+    width: 100%;
+}
