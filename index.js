@@ -21,6 +21,8 @@ async function getEvents(){
     }
 }   
 
+
+
 //event listeners 
 
 
@@ -31,9 +33,11 @@ function renderEvents(){
         let div = document.createElement('div')
         div.className = 'card'
         div.innerHTML = `<h3>#${eve.id}</h3>
-                        <img src=${eve.imageUrl} />
                          <h3>${eve.name}</h3> 
+                         <h3>Time:${eve.date}</h3>
+                        <h3>Location: ${eve.location}</h3>
                          <p>${eve.description}</p>`
+    
      
     return div 
     })
